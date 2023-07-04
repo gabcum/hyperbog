@@ -1,23 +1,29 @@
 body{ 
+    background: #1e1f24;
+    color: #333;
     text-align: center;
     font-family: Arial;
-    color: #333;
     font-size: 16px;
     margin: 0;
     padding: 0;
+
 }
 #container{
-width: 70%;
-padding: 2em;
-text-align: left;
-border: 1px solid #DDD;
-margin: 0 auto;
+    width: 70%;
+    padding: 0;
+    text-align: left;
+    border: 1px solid #DDD;
+    margin: 0 auto;
 }
 #container h1{
     font-size: 70px;
 }
+#cabecera #logo{
+    width: 20px;
+    vertical-align: middle;
+}
 #cabecera{
-    background: #33A;
+    background: #37488b;
     color: white;
     font-weight: bold;
     margin: 0;
@@ -28,4 +34,8 @@ margin: 0 auto;
     font-weight: normal;
     font-size: 0.8em;
     padding: 0 0 0 1em;
+}
+#post{
+    background: white;
+    padding: 1em;
 }
