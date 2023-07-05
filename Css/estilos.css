@@ -42,3 +42,7 @@ body{
     text-align: center;
     padding: 0.5em;
 }
+#post{
+    background: white;
+    padding: 1em;
+}
